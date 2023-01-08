@@ -1,0 +1,174 @@
+@import url('https://fonts.googleapis.com/css2?family=WindSong&display=swap');
+
+*{
+   box-sizing: border-box;
+   margin: 0;
+}
+body{
+   background-image: url("../images/03.webp");
+   background-attachment: fixed;
+}
+
+div.elements-container-1{
+   margin: 20px;
+   width: 320px;
+   position: fixed;
+   /*Effects*/
+   background: rgba( 255, 255, 255, 0.35 );
+   box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
+   backdrop-filter: blur( 4px );
+   -webkit-backdrop-filter: blur( 13.5px );
+   border-radius: 30px;
+   border: 1px solid rgba( 255, 255, 255, 0.18 );
+}
+
+div.my-info{
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   text-align: center;
+   margin-top: 10px;
+   margin-bottom: 10px;
+   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+div.profile-photo, div.about-me, div.contact-me, div.occupation-area{
+   margin: 10px;
+}
+
+div.profile-photo img{
+   width: 200px;
+   border-radius: 100px;
+}
+
+div.about-me h1{
+   margin-bottom: 10px;
+}
+
+div.contact-me{
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+   width: 250px;
+   margin: auto;
+}
+
+div.contact-me img{
+   width: 28px;
+}
+
+div.occupation-area *{
+   margin-bottom: 10px;
+}
+
+main{
+   text-align: center;
+   margin: 20px;
+   padding-left: 350px;
+}
+
+div.elements-container-2{
+   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+div.title-container{
+   border-bottom: 1px solid rgb(165, 164, 164);
+}
+
+div.title{
+   min-width: 320px;
+   text-align: center;
+   /*effects*/
+   backdrop-filter: blur( 4px );
+   -webkit-backdrop-filter: blur( 13.5px );
+   border-radius: 30px;
+   border: 1px solid transparent;
+}
+
+div.title *{
+   margin: 10px;
+}
+
+div.title hr{
+   width: 50%;
+   margin: auto;
+   color: silver;
+}
+
+div.projects-container{
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: center;
+}
+
+div.project{
+   width: 400px;
+   margin: 20px;
+   /*effects*/
+   background: rgba( 255, 255, 255, 0.35 );
+   box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
+   backdrop-filter: blur( 4px );
+   -webkit-backdrop-filter: blur( 13.5px );
+   border-radius: 30px;
+   border: 1px solid rgba( 255, 255, 255, 0.18 );
+}
+div.project-image img{
+   width: 100%;
+   border-top-left-radius: 30px;
+   border-top-right-radius: 30px;
+}
+
+div.project-name{
+   margin-bottom: 5px;
+}
+
+div.project-description{
+   margin: 5px;
+   display: flex;
+   flex-direction: column;
+}
+
+div.see-more{
+   border: 1px solid;
+   border-radius: 20px;
+   width: 100px;
+   margin: auto;
+   padding: 5px;
+}
+
+div.see-more:hover{
+   background-color: silver;
+}
+
+a:link{
+   color:black;
+   text-decoration: none;
+}
+
+a:visited{
+   color: lightslategrey;
+   text-decoration: none;
+}
+
+footer{
+   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+   margin: 20px;
+   padding-left: 350px;
+}
+
+div.elements-container-3{
+   border-top: 1px solid  rgb(165, 164, 164);
+}
+
+div.footer-description-container *{
+   margin: 5px;
+}
+
+div.footer-description{
+   text-align: center;
+}
+
+div.footer-description span{
+   font-family: 'WindSong', cursive;
+   font-size: 25px;
+}
