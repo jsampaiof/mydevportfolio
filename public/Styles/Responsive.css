@@ -1,0 +1,70 @@
+@media (min-width:320px) and (max-width: 500px){
+    
+    aside.my-info-container{
+        margin: 20px;
+    }
+
+    div.elements-container-1{
+        margin: auto;
+        position: unset;
+    }
+
+    div.contact-me{
+        margin: auto;
+    }
+
+    main{
+        padding-left: 0px;
+    }
+
+    footer{
+        padding-left: 0px;
+        /*Effects*/
+        backdrop-filter: blur( 4px );
+        -webkit-backdrop-filter: blur( 13.5px );
+        border-radius: 30px;
+        border: 1px solid transparent;
+    }
+
+}
+
+@media (min-width:500px) and (max-width: 800px){
+
+    aside.my-info-container{
+        margin: 20px;
+    }
+
+    div.elements-container-1{
+        width: 500px;
+        position: unset;
+        margin: auto;
+    }
+
+    div.my-info{
+        display: flex;
+        flex-direction: row;
+    }
+
+    div.info-and-contact{
+        display: flex;
+        flex-direction: column;
+    }
+
+    div.contact-me{
+        margin: auto;
+    }
+
+    main{
+        padding-left: 0px;
+    }
+
+    footer{
+        padding-left: 0px;
+        /*Effects*/
+        backdrop-filter: blur( 4px );
+        -webkit-backdrop-filter: blur( 13.5px );
+        border-radius: 30px;
+        border: 1px solid transparent;
+    }
+
+}
