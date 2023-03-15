@@ -7,7 +7,7 @@ app.set('view engine', 'ejs');
 app.set('views', './views');
 
 app.listen(PORT, () => {
-    console.log(`servidor rodando na porta ${PORT}`);
+    console.log(`servidor rodando na porta http://localhost:${PORT}`);
 });
 
 app.use(express.static('public/'));
