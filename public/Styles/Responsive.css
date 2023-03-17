@@ -4,7 +4,7 @@
         margin: 20px;
     }
 
-    div.elements-container-1{
+    div.container-1{
         margin: auto;
         position: unset;
     }
@@ -13,12 +13,12 @@
         margin: auto;
     }
 
-    main{
+    div.container-2{
         padding-left: 0px;
     }
 
-    footer{
-        padding-left: 0px;
+    div.footer-container{
+        margin-left: 0px;
         /*Effects*/
         backdrop-filter: blur( 4px );
         -webkit-backdrop-filter: blur( 13.5px );
@@ -34,7 +34,7 @@
         margin: 20px;
     }
 
-    div.elements-container-1{
+    div.container-1{
         width: 500px;
         position: unset;
         margin: auto;

@@ -11,7 +11,7 @@
 </head>
 <body>
     <aside>
-        <div class="elements-container-1">
+        <div class="container-1">
             <div class="my-info">
                 <div class="profile-photo">
                     <figure>
@@ -47,21 +47,17 @@
                         </div>
                     </div>
                     <div class="occupation-area">
-                        <div class="occupation-area-title">
-                            <h1>Área de atuação/Occupation area</h1>
-                        </div>
-                        <div class="occupation-area-description">
-                            <p><%= myInfo.job %></p>
-                            <p><%= myInfo.technologies %></p>
-                        </div>
+                        <h1>Área de atuação/Occupation area</h1>
+                        <p><%= myInfo.job %></p>
+                        <p><%= myInfo.technologies %></p>
                     </div>
                 </div>
             </div>
         </div>
     </aside>
     <main>
-        <section class="section-1-container">
-            <div class="elements-container-2">
+        <section>
+            <div class="container-2">
                 <div class="title-container">
                     <div class="title">
                         <h1>Meu portfólio/My portfolio</h1>
@@ -74,7 +70,7 @@
                         <div class="project">
                             <div class="project-image">
                                 <figure>
-                                    <img class="project-thumbnail" src="<%= allProject[i].photo.src %>" alt="<%= allProject[i].photo.alt %>">
+                                    <img src="<%= allProject[i].photo.src %>" alt="<%= allProject[i].photo.alt %>">
                                 </figure>
                             </div>
                             <div class="project-description">
