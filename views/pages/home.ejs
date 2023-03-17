@@ -70,79 +70,27 @@
                     </div>
                 </div>                
                 <div class="projects-container">
-                    <div class="project">
-                        <div class="project-image">
-                            <figure>
-                                <img class="project-thumbnail" src="images/02.webp" alt="Project thumbnail">
-                            </figure>
-                        </div>
-                        <div class="project-description">
-                            <div class="project-name">
-                                <p>em desenvolvimento/in development...</p>
+                    <% for (let i = 0; i < allProject.length; i++) {%>
+                        <div class="project">
+                            <div class="project-image">
+                                <figure>
+                                    <img class="project-thumbnail" src="<%= allProject[i].photo.src %>" alt="<%= allProject[i].photo.alt %>">
+                                </figure>
                             </div>
-                            <div class="see-more">
-                                <a href="../projects/portfolio.ejs">Ver Mais</a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="project">
-                        <div class="project-image">
-                            <figure>
-                                <img class="project-thumbnail" src="images/02.webp" alt="Project thumbnail">
-                            </figure>
-                        </div>
-                        <div class="project-description">
-                            <div class="project-name">
-                                <p>em desenvolvimento/in development...</p>
-                            </div>
-                            <div class="see-more">
-                                <a href="projects/">Ver Mais</a>
+                            <div class="project-description">
+                                <div class="project-name">
+                                    <p><%= allProject[i].name %></p>
+                                </div>
+                                <div class="see-more">
+                                    <a href="/projects/<%= allProject[i].id %>">Ver Mais</a>
+                                </div>
                             </div>
                         </div>
-                    </div>
-                    <div class="project">
-                        <div class="project-image">
-                            <figure>
-                                <img class="project-thumbnail" src="images/02.webp" alt="Project thumbnail">
-                            </figure>
-                        </div>
-                        <div class="project-description">
-                            <div class="project-name">
-                                <p>em desenvolvimento/in development...</p>
-                            </div>
-                            <div class="see-more">
-                                <a href="projects/">Ver Mais</a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="project">
-                        <div class="project-image">
-                            <figure>
-                                <img class="project-thumbnail" src="images/02.webp" alt="Project thumbnail">
-                            </figure>
-                        </div>
-                        <div class="project-description">
-                            <div class="project-name">
-                                <p>em desenvolvimento/in development...</p>
-                            </div>
-                            <div class="see-more">
-                                <a href="projects/">Ver Mais</a>
-                            </div>
-                        </div>
-                    </div>
-                </section>
+                    <% } %>
+                </div>
             </div>
         </section>
     </main>
-    <footer class="footer-container">
-        <div class="elements-container-3">
-            <div class="footer-description-container">
-                <div class="footer-description">
-                    <p>Projeto desenvolvido por/Project developed by:<span><br>Josther Sampaio Fontes</span></p>
-                    <p>All Contents Copyright 2022 Josther Sampaio Fontes. All Rights Reserved</p>
-                </div>
-            </div>
-        </div>
-    </footer>
+    <%- include("../layouts/footer.ejs") %>
 </body>
 </html>

@@ -17,7 +17,8 @@ app.listen(PORT, () => {
 
 app.get('/', (req, res) => {
     const myInfo = getMyInfo();
-    res.status(StatusCodes.OK).render('pages/home.ejs', {title: 'My Portfolio', myInfo});
+    const allProject = projectsService.getProject();
+    res.status(StatusCodes.OK).render('pages/home.ejs', {title: 'My Portfolio', myInfo, allProject});
 });
 
 app.get('/projects/:projectId', (req, res) => {

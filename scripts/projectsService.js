@@ -2,17 +2,29 @@ const projects = [
     {
         id: 1,
         name: 'My Portifolio',
-        desc: 'aaaaa'
+        desc: 'aaaaa',
+        photo:{
+            src: 'images/02.webp',
+            alt: 'Project thumbnail'
+        }
     },
     {
         id: 2,
         name: 'Pure Math',
-        desc: 'aaaaaa'
+        desc: 'aaaaaa',
+        photo:{
+            src: 'images/02.webp',
+            alt: 'Project thumbnail'
+        }
     },
     {
         id: 3,
-        name: 'Workshop Cop million',
-        desc: 'aaaaaa'
+        name: 'Workshop Cop Million',
+        desc: 'aaaaaa',
+        photo:{
+            src: 'images/02.webp',
+            alt: 'Project thumbnail'
+        }
     }
 ];
 
