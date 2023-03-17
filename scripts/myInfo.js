@@ -1,5 +1,5 @@
 const myInfo = {
-    name: 'Josther Sampaio fontes',
+    name: 'Josther Sampaio Fontes',
     age:{
         en: '22 years',
         pt: '22 anos'
@@ -11,13 +11,34 @@ const myInfo = {
     city: 'Barro Alto',
     state: 'BA',
     contact:{
-        email: 'mailto:josthersampaiof@gmail.com',
-        whatsapp: 'https://api.whatsapp.com/send/?phone=%2B5574999846773',
-        instagram:'https://www.instagram.com/j.sampaiof2/',
-        github: 'https://github.com/jsampaiof',
-        facebook: 'https://www.facebook.com/josthersampaiofontes/',
-        linkedin: 'https://www.linkedin.com/in/josther-sampaio/',
-        twitter: 'https://twitter.com/j_sampaiof'
+        email:{
+            href:'mailto:josthersampaiof@gmail.com',
+            src:'/images/gmail icon.webp'
+        },
+        whatsapp:{
+            href:'https://api.whatsapp.com/send/?phone=%2B5574999846773',
+            src: '/images/WhatsApp icon.webp'
+        },
+        instagram:{
+            href:'https://www.instagram.com/j.sampaiof2/',
+            src: '/images/Instagram icon.webp'
+        },
+        github:{
+            href:'https://github.com/jsampaiof',
+            src: '/images/github icon.webp'
+        },
+        facebook: {
+            href:'https://www.facebook.com/josthersampaiofontes/',
+            src:'/images/facebook icon.webp'
+        },
+        linkedin: {
+            href:'https://www.linkedin.com/in/josther-sampaio/',
+            src: '/images/LinkedIn icon.webp'
+        },
+        twitter: {
+            href:'https://twitter.com/j_sampaiof',
+            src:'/images/twitter icon.webp'
+        }
     },
     job: 'Full Stack Junior',
     technologies: 'HTML, CSS, JavaScript, Node.js, Git and GitHub',
@@ -29,4 +50,4 @@ const myInfo = {
 
 export function getMyInfo(){
     return myInfo;
-}
+};

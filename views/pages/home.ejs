@@ -25,25 +25,25 @@
                     </div>
                     <div class="contact-me">
                         <div class="email">
-                            <a href="" target="_blank"><img src="images/gmail icon.webp" alt="gmail"></a>
+                            <a href="<%= myInfo.contact.email.href %>" target="_blank"><img src="<%= myInfo.contact.email.src %>" alt="gmail"></a>
                         </div>
                         <div class="whatsapp">
-                            <a href="https://api.whatsapp.com/send/?phone=%2B5574999846773"><img src="images/WhatsApp icon.webp" alt="WhatsApp"></a>
+                            <a href="<%= myInfo.contact.whatsapp.href %>" target="_blank"><img src="<%= myInfo.contact.whatsapp.src %>" alt="WhatsApp"></a>
                         </div>
                         <div class="instagram">
-                            <a href="https://www.instagram.com/j.sampaiof2/"><img src="images/Instagram icon.webp" alt="Instagram"></a>
+                            <a href="<%= myInfo.contact.instagram.href %>" target="_blank"><img src="<%= myInfo.contact.instagram.src %>" alt="Instagram"></a>
                         </div>
                         <div class="github">
-                            <a href="https://github.com/jsampaiof"><img src="images/github icon.webp" alt="Github"></a>
+                            <a href="<%= myInfo.contact.github.href %>" target="_blank"><img src="<%= myInfo.contact.github.src %>" alt="Github"></a>
                         </div>
                         <div class="facebook">
-                            <a href="https://www.facebook.com/josthersampaiofontes/"><img src="images/facebook icon.webp" alt="Facebook"></a>
+                            <a href="<%= myInfo.contact.facebook.href %>" target="_blank"><img src="<%= myInfo.contact.facebook.src %>" alt="Facebook"></a>
                         </div>
                         <div class="linkedin">
-                            <a href="https://www.linkedin.com/in/josther-sampaio/"><img src="images/LinkedIn icon.webp" alt="LinkedIn"></a>
+                            <a href="<%= myInfo.contact.linkedin.href %>" target="_blank"><img src="<%= myInfo.contact.linkedin.src %>" alt="LinkedIn"></a>
                         </div>
                         <div class="twitter">
-                            <a href="https://twitter.com/j_sampaiof"><img src="images/twitter icon.webp" alt="Twitter"></a>
+                            <a href="<%= myInfo.contact.twitter.href %>" target="_blank"><img src="<%= myInfo.contact.twitter.src %>" alt="Twitter"></a>
                         </div>
                     </div>
                     <div class="occupation-area">
@@ -51,8 +51,8 @@
                             <h1>Área de atuação/Occupation area</h1>
                         </div>
                         <div class="occupation-area-description">
-                            <p>Full Stack Junior</p>
-                            <p>HTML, CSS, JavaScript, Node.js, SQL</p>
+                            <p><%= myInfo.job %></p>
+                            <p><%= myInfo.technologies %></p>
                         </div>
                     </div>
                 </div>
