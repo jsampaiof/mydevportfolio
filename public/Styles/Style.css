@@ -9,11 +9,13 @@ body{
    background-attachment: fixed;
 }
 
+/* ASIDE */
+
 div.elements-container-1{
    margin: 20px;
    width: 320px;
    position: fixed;
-   /*Effects*/
+   /*DESIGN*/
    background: rgba( 255, 255, 255, 0.35 );
    box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
    backdrop-filter: blur( 4px );
@@ -61,6 +63,8 @@ div.occupation-area *{
    margin-bottom: 10px;
 }
 
+/* MAIN */
+
 main{
    text-align: center;
    margin: 20px;
@@ -78,7 +82,7 @@ div.title-container{
 div.title{
    min-width: 320px;
    text-align: center;
-   /*effects*/
+   /*DESIGN*/
    backdrop-filter: blur( 4px );
    -webkit-backdrop-filter: blur( 13.5px );
    border-radius: 30px;
@@ -104,7 +108,7 @@ div.projects-container{
 div.project{
    width: 400px;
    margin: 20px;
-   /*effects*/
+   /*DESIGN*/
    background: rgba( 255, 255, 255, 0.35 );
    box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
    backdrop-filter: blur( 4px );
@@ -149,6 +153,8 @@ a:visited{
    color: lightslategrey;
    text-decoration: none;
 }
+
+/* FOOTER */
 
 footer{
    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
