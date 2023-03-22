@@ -1,0 +1,65 @@
+@import url('Animation.css');
+
+*{
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+body{
+    background-image: url('/images/03.webp');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    backdrop-filter: blur(4px);
+}
+
+/* MAIN - CONTAINER 1 */
+
+section.container-1{
+    margin-bottom: 30px;
+    display: flex;
+    flex-direction:column;
+    align-items: center;
+    /* DESIGN */
+    text-align: center;
+}
+
+div.project-name{
+    margin-top: 30px;
+    font-size: 30px;
+}
+
+div.project-video{
+    margin: 20px;
+    width: 80%;
+    /* DESIGN */
+    border: 1px solid #000000;
+    border-radius: 15px;
+}
+
+div.project-desc{
+    width: 80%;
+    padding-bottom: 20px;
+    /* DESIGN */
+    border-bottom: 1px solid #000000;
+}
+
+/* MAIN - CONTAINER 2 */
+
+div.used-techs h1{
+    text-align: center;
+}
+
+div.tech-images{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 200px;
+    margin: 30px;
+}
+
+div.tech-images img{
+    width: 150px;
+}

@@ -6,7 +6,7 @@
    margin: 0;
 }
 body{
-   background-image: url("../images/03.webp");
+   background-image: url("../../images/03.webp");
    background-attachment: fixed;
 }
 
@@ -127,14 +127,15 @@ div.project-image img{
    border-top-right-radius: 30px;
 }
 
-div.project-name{
-   margin-bottom: 5px;
-}
-
 div.project-description{
-   margin: 5px;
+   margin: 10px;
    display: flex;
    flex-direction: column;
+}
+
+div.project-name{
+   margin-bottom: 10px;
+   font-size: 20px;
 }
 
 div.see-more{

@@ -4,16 +4,61 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/Styles/project/Style.css">
     <title><%= title %></title>
 </head>
 <body>
-    <div>
+    <main>
         <% if(project) {%>
-            <h1><%= project.name %></h1>
+            <section class="container-1">
+                <div class="project-name">
+                    <h1><%= project.name %></h1>
+                </div>
+                <div class="project-video">
+                    <video src=""></video>
+                </div>
+                <div class="project-desc">
+                    <p><%= project.desc %></p>
+                </div>
+            </section>
+            <section class="container-2">
+                <div class="used-techs">
+                    <h1>Tecnologias e Ferramentas Utilizadas:</h1>
+                    <div class="tech-images">
+                        <% for (let tech in project.techs) {%>
+                            <div class="<%= project.techs[tech].name %>">
+                                <figure>
+                                    <img src="<%= project.techs[tech].src %>" alt="<%= project.techs[tech].alt %>">
+                                </figure>
+                            </div>
+                        <% } %>
+                    </div>
+                </div>
+                <div class="project-links">
+                    <h1>Links do Projeto:</h1>
+                    <div class="github">
+                        <button type="button"></button>
+                    </div>
+                    <div class="site"></div>
+                </div>
+            </section>
+            <section class="container-3">
+                <div class="new-releases">
+                    <h1>Novos Lançamentos:</h1>
+                    <ul>
+                        <% for(let update in project.updates) {%>
+                            <li><%= project.updates [update] %></li>
+                        <% } %>
+                    </ul>
+                </div>
+            </section>
         <% } else { %>
-            <h1>projeto não encontrado</h1>
+            <h1>Projeto não Encontrado</h1>
+            <%- include("../layouts/status 404.ejs") %>
         <% } %>
-        <!-- <h1>ola</h1> -->
-    </div>
+    </main>
+    <footer>
+        <%- include('../layouts/footer.ejs') %>
+    </footer>
 </body>
 </html>
