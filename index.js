@@ -12,7 +12,7 @@ app.use(express.static('public/'));
 app.use(express.json());
 
 app.listen(PORT, () => {
-    console.log(`servidor rodando na porta http://localhost:${PORT}`);
+    console.log(`server running on port http://localhost:${PORT}`);
 });
 
 app.get('/', (req, res) => {

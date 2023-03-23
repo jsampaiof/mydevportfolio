@@ -7,7 +7,7 @@ const projects = [
             src: 'images/02.webp',
             alt: 'Project thumbnail'
         },
-        techs: {
+        techs:{
             html:{
                 name:'HTML',
                 src:'/images/technologies/HTML 5.webp',
@@ -45,8 +45,11 @@ const projects = [
             }
         },
         updates:{
-            1: 'aaaaaa',
-            2: 'bbbbbb'
+            1: '17/03/23 - Atualização do design da página inicial'
+        },
+        links:{
+            site:'https://mydevportfolio.tk',
+            repositorio:'https://github.com/jsampaiof/mydevportfolio'
         }
     },
     {
@@ -57,7 +60,11 @@ const projects = [
             src: 'images/02.webp',
             alt: 'Project thumbnail'
         },
-        updates:{}
+        updates:{},
+        links:{
+            site:'https://mydevportfolio.tk',
+            repositorio:'https://github.com/jsampaiof/mydevportfolio'
+        }
     },
     {
         id: 3,
@@ -67,7 +74,11 @@ const projects = [
             src: 'images/02.webp',
             alt: 'Project thumbnail'
         },
-        updates:{}
+        updates:{},
+        links:{
+            site:'https://mydevportfolio.tk',
+            repositorio:'https://github.com/jsampaiof/mydevportfolio'
+        }
     }
 ];
 

@@ -1,0 +1,10 @@
+div.site, div.github{
+    transition: transform 0.2s ease-in-out;
+}
+
+div.site:hover, div.github:hover{
+    transform: scale(1.2);
+    -webkit-transform: scale(1.2);
+    -ms-transform: scale(1.2);
+    cursor: pointer;
+}

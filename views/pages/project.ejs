@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="/Styles/project/Style.css">
+    <link rel="shortcut icon" href="/icons/portfolio 2.svg" type="image/x-icon">
     <title><%= title %></title>
 </head>
 <body>
@@ -36,10 +37,28 @@
                 </div>
                 <div class="project-links">
                     <h1>Links do Projeto:</h1>
-                    <div class="github">
-                        <button type="button"></button>
+                    <div class="project-buttons">
+                        <a href="<%= project.links.site %>" target="_blank">
+                            <div class="site">
+                                <figure class="site-icon">
+                                    <svg>
+                                        <image href="/icons/site.svg"/>
+                                    </svg>
+                                </figure>
+                                <p>Acessar Projeto</p>
+                            </div>
+                        </a>
+                        <a href="<%= project.links.repositorio %>" target="_blank">
+                            <div class="github">
+                                <figure class="github-icon">
+                                    <svg>
+                                        <image href="/icons/github.svg"/>
+                                    </svg>
+                                </figure>
+                                <p>Acessar Repositório</p>
+                            </div>
+                        </a>
                     </div>
-                    <div class="site"></div>
                 </div>
             </section>
             <section class="container-3">
@@ -53,7 +72,6 @@
                 </div>
             </section>
         <% } else { %>
-            <h1>Projeto não Encontrado</h1>
             <%- include("../layouts/status 404.ejs") %>
         <% } %>
     </main>
