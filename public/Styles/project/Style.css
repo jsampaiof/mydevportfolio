@@ -141,6 +141,31 @@ div.new-releases ul{
     list-style: none;
 }
 
+/* STATUS 404 */
+
+div.status-404{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 30px;
+}
+
+div.status-404 h1, div.status-404 p{
+    margin-bottom: 10px;
+}
+
+div.status-404 figure{
+    width: 800px;
+    /* DESIGN */
+    border: 1px solid #000000;
+    border-radius: 20px;
+    overflow: hidden;
+}
+
+div.status-404 img{
+    width: 100%;
+}
+
 /* FOOTER */
 
 div.footer-container{
