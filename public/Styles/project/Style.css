@@ -84,6 +84,7 @@ div.project-buttons{
 
 div.project-buttons a{
     text-decoration: none;
+    color:unset;
 }
 
 div.project-buttons a:visited{
@@ -112,8 +113,13 @@ figure.site-icon, figure.github-icon{
     height: 50px;
 }
 
+figure.site-icon svg, figure.github-icon svg{
+    width: inherit;
+    height: inherit;
+}
+
 figure.site-icon image, figure.github-icon image{
-    width: 50px;
+    width: inherit;
 }
 
 /* MAIN - CONTAINER 3 */
@@ -137,6 +143,7 @@ div.new-releases h1{
 div.new-releases ul{
     display: flex;
     flex-direction: column-reverse;
+    padding: 0px;
     /* DESIGN */
     list-style: none;
 }
@@ -186,5 +193,6 @@ div.footer-description p:first-child{
 
 div.svgrepo{
     margin-top: 10px;
+    /*DESIGN*/
     font-style: italic;
 }

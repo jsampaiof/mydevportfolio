@@ -45,7 +45,8 @@ const projects = [
             }
         },
         updates:{
-            1: '17/03/23 - Atualização do design da página inicial'
+            1: '17/03/23 - Atualização do design da página inicial',
+            2: '24/03/23 - Lançamento de design responsivo'
         },
         links:{
             site:'https://mydevportfolio.tk',
@@ -60,10 +61,32 @@ const projects = [
             src: 'images/02.webp',
             alt: 'Project thumbnail'
         },
+        techs:{
+            html:{
+                name:'HTML',
+                src:'/images/technologies/HTML 5.webp',
+                alt:'HTML 5'
+            },
+            css:{
+                name:'CSS',
+                src: '/images/technologies/CSS 3.webp',
+                alt: 'CSS 3'
+            },
+            javascript:{
+                name:'javascript',
+                src: '/images/technologies/javascript.webp',
+                alt: 'JavaScript'
+            },
+            git:{
+                name:'git',
+                src: '/images/technologies/git.webp',
+                alt: 'Git'
+            }
+        },
         updates:{},
         links:{
-            site:'https://mydevportfolio.tk',
-            repositorio:'https://github.com/jsampaiof/mydevportfolio'
+            site:'https://puremath.tk',
+            repositorio:'https://github.com/jsampaiof/conversor-de-medidas'
         }
     },
     {
@@ -74,10 +97,37 @@ const projects = [
             src: 'images/02.webp',
             alt: 'Project thumbnail'
         },
+        techs:{
+            html:{
+                name:'HTML',
+                src:'/images/technologies/HTML 5.webp',
+                alt:'HTML 5'
+            },
+            css:{
+                name:'CSS',
+                src: '/images/technologies/CSS 3.webp',
+                alt: 'CSS 3'
+            },
+            javascript:{
+                name:'javascript',
+                src: '/images/technologies/javascript.webp',
+                alt: 'JavaScript'
+            },
+            git:{
+                name:'git',
+                src: '/images/technologies/git.webp',
+                alt: 'Git'
+            },
+            node:{
+                name:'nodejs',
+                src: '/images/technologies/nodejs.webp',
+                alt: 'Node.JS'
+            }
+        },
         updates:{},
         links:{
             site:'https://mydevportfolio.tk',
-            repositorio:'https://github.com/jsampaiof/mydevportfolio'
+            repositorio:'https://github.com/jsampaiof/chicago-pd-workshop'
         }
     }
 ];

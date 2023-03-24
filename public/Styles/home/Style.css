@@ -161,6 +161,7 @@ a:visited{
 div.footer-container{
    margin: 20px;
    margin-left: 350px;
+   text-align: center;
    /*DESIGN*/
    border-top: 1px solid  rgb(165, 164, 164);
    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -174,4 +175,10 @@ div.footer-description{
 div.footer-description span{
    font-family: 'WindSong', cursive;
    font-size: 25px;
+}
+
+div.svgrepo{
+   margin-top: 10px;
+   /*DESIGN*/
+   font-style: italic;
 }
