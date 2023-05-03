@@ -4,7 +4,7 @@ import * as projectsService from './scripts/projectsService.js';
 import { getMyInfo } from './scripts/myInfo.js';
 
 const app = express();
-const PORT = process.env.PORT || 80;
+const PORT = process.env.PORT || 1220;
 
 app.set('view engine', 'ejs');
 app.set('views', './views');
