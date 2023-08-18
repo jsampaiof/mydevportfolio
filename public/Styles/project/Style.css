@@ -32,7 +32,7 @@ div.project-name{
 }
 
 div.project-image{
-    width: 800px;
+    width: 80%;
     margin-top: 20px;
     margin-bottom: 20px;
     border: 1px solid #000000;
@@ -62,8 +62,12 @@ section.container-2{
     margin-bottom: 30px;
 }
 
-div.used-techs h1{
+div.used-techs h1, div.used-techs p{
     text-align: center;
+}
+
+div.used-techs p{
+    font-style: italic;
 }
 
 div.tech-images{
