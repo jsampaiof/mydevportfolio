@@ -31,12 +31,22 @@ div.project-name{
     font-size: 30px;
 }
 
-div.project-video{
-    margin: 20px;
-    width: 80%;
-    /* DESIGN */
+div.project-image{
+    width: 800px;
+    margin-top: 20px;
+    margin-bottom: 20px;
     border: 1px solid #000000;
-    border-radius: 15px;
+    border-radius: 30px;
+    overflow: hidden;
+}
+
+div.project-image figure{
+    display: contents;
+}
+
+div.project-image img{
+    width: 100%;
+    height: 100%;
 }
 
 div.project-desc{
@@ -154,7 +164,7 @@ div.status-404{
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin: 30px;
+    padding: 30px;
 }
 
 div.status-404 h1, div.status-404 p{

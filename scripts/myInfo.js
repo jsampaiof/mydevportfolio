@@ -1,8 +1,8 @@
 const myInfo = {
     name: 'Josther Sampaio Fontes',
     age:{
-        en: '22 years',
-        pt: '22 anos'
+        en: '23 years',
+        pt: '23 anos'
     },
     country: { 
         en: 'Brazil', 
@@ -40,7 +40,7 @@ const myInfo = {
             src:'/images/twitter icon.webp'
         }
     },
-    job: 'Full Stack Junior',
+    job: 'Javascript Developer',
     technologies: 'HTML, CSS, JavaScript, Node.js, Git and GitHub',
     photo:{
         src: 'images/profile photo.webp',

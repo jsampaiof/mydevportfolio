@@ -132,6 +132,57 @@ const projects = [
             site:'https://chicagopdworkshop.glitch.me',
             repositorio:'https://github.com/jsampaiof/chicago-pd-workshop'
         }
+    },
+    {
+        id: 4,
+        name: 'YouDown - Youtube Video Downloader',
+        desc: 'Sabe aquele momento que você quer baixar um video legal, mas não sabe como? Com o YouDown isso fica facil. Projeto desenvolvido utilizando uma API externa, onde é armazenado o ID do video passado ao inserir o link. Apos coletarmos o ID, requisitamos as informações do video, atraves de uma API externa; e pra manter o aplicativo seguro, a solicitação é realizada por intermedio de um servidor proxy, mantendo assim a segurança das informações, como Keys e host. Ao retorna a resposta da requisição, filtramos apenas as que queremos e por fim é retornado para o cliente, o link do video',
+        photo:{
+            src: 'images/projects thumb/Youdown.webp',
+            alt: 'Project thumbnail'
+        },
+        techs:{
+            html:{
+                name:'HTML',
+                src:'/images/technologies/HTML 5.webp',
+                alt:'HTML 5'
+            },
+            css:{
+                name:'CSS',
+                src: '/images/technologies/CSS 3.webp',
+                alt: 'CSS 3'
+            },
+            javascript:{
+                name:'javascript',
+                src: '/images/technologies/javascript.webp',
+                alt: 'JavaScript'
+            },
+            git:{
+                name:'git',
+                src: '/images/technologies/git.webp',
+                alt: 'Git'
+            },
+            node:{
+                name:'nodejs',
+                src: '/images/technologies/nodejs.webp',
+                alt: 'Node.JS'
+            },
+            express:{
+                name:'express',
+                src: '/images/technologies/express-js.webp',
+                alt: 'Express'
+            },
+            ejs:{
+                name:'ejs',
+                src: '/images/technologies/ejs.webp',
+                alt: 'EJS'
+            }
+        },
+        updates:{},
+        links:{
+            site:'https://you-down.glitch.me',
+            repositorio:'https://github.com/jsampaiof/youdown'
+        }
     }
 ];
 
