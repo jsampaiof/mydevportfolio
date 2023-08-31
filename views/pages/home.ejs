@@ -47,7 +47,7 @@
                         </div>
                     </div>
                     <div class="occupation-area">
-                        <h1>Área de atuação/Occupation area</h1>
+                        <h1>Área de atuação</h1>
                         <p><%= myInfo.job %></p>
                         <p><%= myInfo.technologies %></p>
                     </div>
@@ -60,12 +60,12 @@
             <div class="container-2">
                 <div class="title-container">
                     <div class="title">
-                        <h1>Meu portfólio/My portfolio</h1>
+                        <h1>Meu portfólio</h1>
                         <hr>
-                        <p>Todos os meus projetos desenvolvidos ou em desenvolvimento/All my projects developed or in development</p>
+                        <p>Todos os meus projetos desenvolvidos ou em desenvolvimento</p>
                     </div>
                 </div>                
-                <div class="projects-container">
+                <div class="projects-container flexd">
                     <% for (let i = 0; i < allProject.length; i++) {%>
                         <div class="project">
                             <div class="project-image">
@@ -76,6 +76,19 @@
                             <div class="project-description">
                                 <div class="project-name">
                                     <p><%= allProject[i].name %></p>
+                                </div>
+                                <div class="project-status">
+                                    <p>Status: <%= allProject[i].status %></p>
+                                </div>
+                                <div class="project-techs">
+                                    <p>Techs:</p>
+                                    <div class="tech-images">
+                                        <% for (const tech in allProject[i].techs) {%>
+                                            <figure class="<%= allProject[i].techs[tech].name%>">
+                                                <img src="<%= allProject[i].techs[tech].src%>" alt="<%= allProject[i].techs[tech].alt%>">
+                                            </figure>
+                                        <%}%>
+                                    </div>
                                 </div>
                                 <div class="see-more">
                                     <a href="/projects/<%= allProject[i].id %>">Ver Mais</a>

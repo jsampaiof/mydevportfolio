@@ -40,8 +40,8 @@ const myInfo = {
             src:'/images/twitter icon.webp'
         }
     },
-    job: 'Javascript Developer',
-    technologies: 'HTML, CSS, JavaScript, Node.js, Git and GitHub',
+    job: 'Desenvolvedor Javascript',
+    technologies: 'JavaScript, Node.js, Git e GitHub, HTML, CSS, DB(breve)',
     photo:{
         src: 'images/profile photo.webp',
         alt: 'profile photo'

@@ -3,6 +3,7 @@ const projects = [
         id: 1,
         name: 'My Portifolio',
         desc: 'Portifolio desenvolvido com o intuito de apresentar todos os meus projetos, desenvolvidos ou em desenvolvimento, além de servir como uma forma de testar meus conhecimentos nas tecnologias aprendidas. O My Portfolio foi inteiramente desenvolvido por mim, desde a primeira div até suas rotas, definidas com o auxilio do express. As tecnologias utilizadas estão listadas abaixo.',
+        status: 'Em produção 🟢',
         photo:{
             src: 'images/projects thumb/mydevportfolio.webp',
             alt: 'Project thumbnail'
@@ -49,7 +50,9 @@ const projects = [
             2: '24/03/23 - Lançamento de design responsivo',
             3: '02/05/23 - update das thumbnails',
             4: '02/05/23 - update das descrições dos projetos',
-            5: '03/05/23 - update dos links dos projetos'
+            5: '03/05/23 - update dos links dos projetos',
+            6: '18/08/23 - novo projeto adicionado e update da página de projeto',
+            7: '30/08/23 - update dos cards de projetos da página inicial'
         },
         links:{
             site:'https://mydevportfolio.glitch.me',
@@ -60,6 +63,7 @@ const projects = [
         id: 2,
         name: 'Pure Math',
         desc: 'Conversor desenvolvido no intuito de facilitar a nossa vida, hahaha. É bem comum no dia a dia precisarmos converter algumas medidas em algum momento, e foi em um desses momentos que eu pensei: Porque não criar um conversor?, foi então que nasceu o PureMath, ou traduzindo: Pura Matematica. O projeto foi inteiramente desenvolvido por mim, desde a ideia do nome, scripts, paleta de cores, rotas e etc. As tecnologias utilizadas estão listadas abaixo.',
+        status: 'Em produção 🟢',
         photo:{
             src: 'images/projects thumb/puremath.webp',
             alt: 'Project thumbnail'
@@ -96,6 +100,7 @@ const projects = [
         id: 3,
         name: 'Workshop Cop Million',
         desc: 'Como fã de chicago PD, pensei em como desenvolver um projeto baseado na serie, foi então que surgiu o Workshop Million Cops. Esse é um projeto de landing page para inscrição em um workshop no intuito de entregar o passo a passo para quem deseja entrar na academia de policia, com as aulas ministradas pelo melhores policiais de chicago PD. O projeto foi inteiramente desenvolvido por mim, desde a paleta de cores, scripts e etc. As tecnologias utilizadas estão listadas abaixo.',
+        status: 'Em produção 🟢',
         photo:{
             src: 'images/projects thumb/workshop.webp',
             alt: 'Project thumbnail'
@@ -137,6 +142,7 @@ const projects = [
         id: 4,
         name: 'YouDown - Youtube Video Downloader',
         desc: 'Sabe aquele momento que você quer baixar um video legal, mas não sabe como? Com o YouDown isso fica facil. Projeto desenvolvido utilizando uma API externa, onde é armazenado o ID do video passado ao inserir o link. Apos coletarmos o ID, requisitamos as informações do video, atraves de uma API externa; e pra manter o aplicativo seguro, a solicitação é realizada por intermedio de um servidor proxy, mantendo assim a segurança das informações, como Keys e host. Ao retorna a resposta da requisição, filtramos apenas as que queremos e por fim é retornado para o cliente, o link do video',
+        status: 'Em produção 🟢',
         photo:{
             src: 'images/projects thumb/Youdown.webp',
             alt: 'Project thumbnail'
