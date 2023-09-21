@@ -5,50 +5,62 @@
    box-sizing: border-box;
    margin: 0;
 }
+
+:root{
+   --primary-font: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;  
+   --secondary-font: 'WindSong', cursive;
+   --color-one: #a5a4a4;
+   --color-two: #000000;
+   /* GLASS EFFECT: */
+   --background-color: #ffffff59;
+   --shadow-color: #0000005e;
+   --border-color: #ffffff2e;
+}
+
 body{
    background-image: url("../../images/03.webp");
    background-attachment: fixed;
+   font-family: var(--primary-font);
 }
 
 /* ASIDE */
 
-div.container-1{
+.container-1{
    margin: 20px;
    width: 320px;
    position: fixed;
    /*DESIGN*/
-   background: rgba( 255, 255, 255, 0.35 );
-   box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
+   background: var(--background-color);
+   box-shadow: 0 8px 32px 0 var(--shadow-color);
    backdrop-filter: blur( 4px );
-   -webkit-backdrop-filter: blur( 13.5px );
    border-radius: 30px;
-   border: 1px solid rgba( 255, 255, 255, 0.18 );
+   border: 1px solid var(--border-color);
 }
 
-div.my-info{
+.my-info{
    display: flex;
    flex-direction: column;
    align-items: center;
    text-align: center;
    margin-top: 10px;
    margin-bottom: 10px;
-   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
-div.profile-photo, div.about-me, div.contact-me, div.occupation-area{
+.profile-photo, .about-me, .contact-me, .occupation-area{
    margin: 10px;
 }
 
-div.profile-photo img{
+.profile-photo img{
    width: 200px;
+   /*DESIGN*/
    border-radius: 100px;
 }
 
-div.about-me h1{
+.about-me h1{
    margin-bottom: 10px;
 }
 
-div.contact-me{
+.contact-me{
    display: flex;
    align-items: center;
    justify-content: space-between;
@@ -56,93 +68,83 @@ div.contact-me{
    margin: auto;
 }
 
-div.contact-me img{
+.contact-me img{
    width: 28px;
 }
 
-div.occupation-area *{
+.occupation-area *{
    margin-bottom: 10px;
 }
 
 /* MAIN */
 
-/* main{
+.container-2{
+   margin: 20px;
+   padding-left: 350px;
    text-align: center;
-   margin: 20px;
-   padding-left: 350px;
-} */
-
-div.container-2{
-   margin: 20px;
-   padding-left: 350px;
    /*DESIGN*/
-   text-align: center;
-   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
-div.title-container{
-   border-bottom: 1px solid rgb(165, 164, 164);
+.title-container{
+   border-bottom: 1px solid var(--color-one);
 }
 
-div.title{
+.title{
    min-width: 320px;
    text-align: center;
    /*DESIGN*/
-   backdrop-filter: blur( 4px );
-   -webkit-backdrop-filter: blur( 13.5px );
+   backdrop-filter: blur(4px);
    border-radius: 30px;
    border: 1px solid transparent;
 }
 
-div.title *{
+.title *{
    margin: 10px;
 }
 
-div.title hr{
+.title hr{
    width: 50%;
    margin: auto;
-   color: silver;
+   /*DESIGN*/
+   color: var(--color-one);
 }
 
-div.projects-container{
+.projects-container{
    display: flex;
    flex-wrap: wrap;
    justify-content: center;
 }
 
-div.project{
+.project{
    width: 400px;
    margin: 20px;
    /*DESIGN*/
-   background: rgba( 255, 255, 255, 0.35 );
-   box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
+   background: var(--background-color);
+   box-shadow: 0 8px 32px 0 var(--shadow-color);
    backdrop-filter: blur( 4px );
-   -webkit-backdrop-filter: blur( 13.5px );
    border-radius: 30px;
-   border: 1px solid rgba( 255, 255, 255, 0.18 );
+   border: 1px solid var(--border-color);
 }
-div.project-image img{
+
+.project-image img{
    width: 100%;
+   /*DESIGN*/
    border-top-left-radius: 30px;
    border-top-right-radius: 30px;
 }
 
-div.project-description{
+.project-description{
    margin: 10px;
    display: flex;
    flex-direction: column;
    align-items: center;
 }
 
-div.project-name{
+.project-name{
    margin-bottom: 10px;
    padding-bottom: 5px;
-   font-size: 20px;
+   /*DESIGN*/
    border-bottom: 1px solid;
-}
-
-.project-status, .project-techs{
-   font-size: 14px;
 }
 
 .project-techs{
@@ -164,46 +166,46 @@ div.project-name{
    margin-right: 5px;
 }
 
-div.see-more{
-   border: 1px solid;
-   border-radius: 20px;
+.see-more{
    width: 100px;
    margin: auto;
    padding: 5px;
+   /*DESIGN*/
+   border: 1px solid;
+   border-radius: 20px;
 }
 
 a:link{
-   color:black;
+   color:var(--color-two);
    text-decoration: none;
 }
 
 a:visited{
-   color: lightslategrey;
+   color: var(--color-two);
    text-decoration: none;
 }
 
 /* FOOTER */
 
-div.footer-container{
+.footer-container{
    margin: 20px;
    margin-left: 350px;
    text-align: center;
    /*DESIGN*/
-   border-top: 1px solid  rgb(165, 164, 164);
-   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+   border-top: 1px solid  var(--color-one);
 }
 
-div.footer-description{
+.footer-description{
    margin: 5px;
    text-align: center;
 }
 
-div.footer-description span{
-   font-family: 'WindSong', cursive;
+.footer-description span{
+   font-family: var(--secondary-font);
    font-size: 25px;
 }
 
-div.svgrepo{
+.svgrepo{
    margin-top: 10px;
    /*DESIGN*/
    font-style: italic;
