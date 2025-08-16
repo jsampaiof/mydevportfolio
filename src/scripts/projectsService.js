@@ -5,43 +5,43 @@ const projects = [
         desc: 'Portifolio desenvolvido com o intuito de apresentar todos os meus projetos, desenvolvidos ou em desenvolvimento, além de servir como uma forma de testar meus conhecimentos nas tecnologias aprendidas. O My Portfolio foi inteiramente desenvolvido por mim, desde a primeira div até suas rotas, definidas com o auxilio do express. As tecnologias utilizadas estão listadas abaixo.',
         status: 'Em produção 🟢',
         photo:{
-            src: 'images/projects thumb/mydevportfolio.webp',
+            src: 'public/images/projects thumb/mydevportfolio.webp',
             alt: 'Project thumbnail'
         },
         techs:{
             html:{
                 name:'HTML',
-                src:'/images/technologies/HTML 5.webp',
+                src:'public/images/technologies/HTML 5.webp',
                 alt:'HTML 5'
             },
             css:{
                 name:'CSS',
-                src: '/images/technologies/CSS 3.webp',
+                src: 'public/images/technologies/CSS 3.webp',
                 alt: 'CSS 3'
             },
             javascript:{
                 name:'javascript',
-                src: '/images/technologies/javascript.webp',
+                src: 'public/images/technologies/javascript.webp',
                 alt: 'JavaScript'
             },
             git:{
                 name:'git',
-                src: '/images/technologies/git.webp',
+                src: 'public/images/technologies/git.webp',
                 alt: 'Git'
             },
             node:{
                 name:'nodejs',
-                src: '/images/technologies/nodejs.webp',
+                src: 'public/images/technologies/nodejs.webp',
                 alt: 'Node.JS'
             },
             express:{
                 name:'express',
-                src: '/images/technologies/express-js.webp',
+                src: 'public/images/technologies/express-js.webp',
                 alt: 'Express'
             },
             ejs:{
                 name:'ejs',
-                src: '/images/technologies/ejs.webp',
+                src: 'public/images/technologies/ejs.webp',
                 alt: 'EJS'
             }
         },
@@ -65,28 +65,28 @@ const projects = [
         desc: 'Conversor desenvolvido no intuito de facilitar a nossa vida, hahaha. É bem comum no dia a dia precisarmos converter algumas medidas em algum momento, e foi em um desses momentos que eu pensei: Porque não criar um conversor?, foi então que nasceu o PureMath, ou traduzindo: Pura Matematica. O projeto foi inteiramente desenvolvido por mim, desde a ideia do nome, scripts, paleta de cores, rotas e etc. As tecnologias utilizadas estão listadas abaixo.',
         status: 'Em produção 🟢',
         photo:{
-            src: 'images/projects thumb/puremath.webp',
+            src: 'public/images/projects thumb/puremath.webp',
             alt: 'Project thumbnail'
         },
         techs:{
             html:{
                 name:'HTML',
-                src:'/images/technologies/HTML 5.webp',
+                src:'public/images/technologies/HTML 5.webp',
                 alt:'HTML 5'
             },
             css:{
                 name:'CSS',
-                src: '/images/technologies/CSS 3.webp',
+                src: 'public/images/technologies/CSS 3.webp',
                 alt: 'CSS 3'
             },
             javascript:{
                 name:'javascript',
-                src: '/images/technologies/javascript.webp',
+                src: 'public/images/technologies/javascript.webp',
                 alt: 'JavaScript'
             },
             git:{
                 name:'git',
-                src: '/images/technologies/git.webp',
+                src: 'public/images/technologies/git.webp',
                 alt: 'Git'
             }
         },
@@ -102,33 +102,33 @@ const projects = [
         desc: 'Como fã de chicago PD, pensei em como desenvolver um projeto baseado na serie, foi então que surgiu o Workshop Million Cops. Esse é um projeto de landing page para inscrição em um workshop no intuito de entregar o passo a passo para quem deseja entrar na academia de policia, com as aulas ministradas pelo melhores policiais de chicago PD. O projeto foi inteiramente desenvolvido por mim, desde a paleta de cores, scripts e etc. As tecnologias utilizadas estão listadas abaixo.',
         status: 'Em produção 🟢',
         photo:{
-            src: 'images/projects thumb/workshop.webp',
+            src: 'public/images/projects thumb/workshop.webp',
             alt: 'Project thumbnail'
         },
         techs:{
             html:{
                 name:'HTML',
-                src:'/images/technologies/HTML 5.webp',
+                src:'public/images/technologies/HTML 5.webp',
                 alt:'HTML 5'
             },
             css:{
                 name:'CSS',
-                src: '/images/technologies/CSS 3.webp',
+                src: 'public/images/technologies/CSS 3.webp',
                 alt: 'CSS 3'
             },
             javascript:{
                 name:'javascript',
-                src: '/images/technologies/javascript.webp',
+                src: 'public/images/technologies/javascript.webp',
                 alt: 'JavaScript'
             },
             git:{
                 name:'git',
-                src: '/images/technologies/git.webp',
+                src: 'public/images/technologies/git.webp',
                 alt: 'Git'
             },
             node:{
                 name:'nodejs',
-                src: '/images/technologies/nodejs.webp',
+                src: 'public/images/technologies/nodejs.webp',
                 alt: 'Node.JS'
             }
         },
@@ -144,43 +144,43 @@ const projects = [
         desc: 'Sabe aquele momento que você quer baixar um video legal, mas não sabe como? Com o YouDown isso fica facil. Projeto desenvolvido utilizando uma API externa, onde é armazenado o ID do video passado ao inserir o link. Apos coletarmos o ID, requisitamos as informações do video, atraves de uma API externa; e pra manter o aplicativo seguro, a solicitação é realizada por intermedio de um servidor proxy, mantendo assim a segurança das informações, como Keys e host. Ao retorna a resposta da requisição, filtramos apenas as que queremos e por fim é retornado para o cliente, o link do video',
         status: 'Em produção 🟢',
         photo:{
-            src: 'images/projects thumb/Youdown.webp',
+            src: 'public/images/projects thumb/Youdown.webp',
             alt: 'Project thumbnail'
         },
         techs:{
             html:{
                 name:'HTML',
-                src:'/images/technologies/HTML 5.webp',
+                src:'public/images/technologies/HTML 5.webp',
                 alt:'HTML 5'
             },
             css:{
                 name:'CSS',
-                src: '/images/technologies/CSS 3.webp',
+                src: 'public/images/technologies/CSS 3.webp',
                 alt: 'CSS 3'
             },
             javascript:{
                 name:'javascript',
-                src: '/images/technologies/javascript.webp',
+                src: 'public/images/technologies/javascript.webp',
                 alt: 'JavaScript'
             },
             git:{
                 name:'git',
-                src: '/images/technologies/git.webp',
+                src: 'public/images/technologies/git.webp',
                 alt: 'Git'
             },
             node:{
                 name:'nodejs',
-                src: '/images/technologies/nodejs.webp',
+                src: 'public/images/technologies/nodejs.webp',
                 alt: 'Node.JS'
             },
             express:{
                 name:'express',
-                src: '/images/technologies/express-js.webp',
+                src: 'public/images/technologies/express-js.webp',
                 alt: 'Express'
             },
             ejs:{
                 name:'ejs',
-                src: '/images/technologies/ejs.webp',
+                src: 'public/images/technologies/ejs.webp',
                 alt: 'EJS'
             }
         },

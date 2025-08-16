@@ -8,7 +8,7 @@
 }
 
 body{
-    background-image: url('/images/03.webp');
+    background-image: url('/public/images/03.webp');
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;

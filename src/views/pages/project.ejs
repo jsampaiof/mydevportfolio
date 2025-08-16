@@ -4,9 +4,9 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="/Styles/project/Style.css">
-    <link rel="stylesheet" href="/Styles/project/Responsive.css">    
-    <link rel="shortcut icon" href="/icons/portfolio 2.svg" type="image/x-icon">
+    <link rel="stylesheet" href="/public/Styles/project/Style.css">
+    <link rel="stylesheet" href="/public/Styles/project/Responsive.css">    
+    <link rel="shortcut icon" href="/public/icons/portfolio 2.svg" type="image/x-icon">
     <title><%= title %></title>
 </head>
 <body>
@@ -33,7 +33,7 @@
                         <% for (let tech in project.techs) {%>
                             <div class="<%= project.techs[tech].name %>">
                                 <figure>
-                                    <img src="<%= project.techs[tech].src %>" alt="<%= project.techs[tech].alt %>" loading="lazy">
+                                    <img src="/<%= project.techs[tech].src %>" alt="<%= project.techs[tech].alt %>" loading="lazy">
                                 </figure>
                             </div>
                         <% } %>
@@ -46,7 +46,7 @@
                             <div class="site">
                                 <figure class="site-icon">
                                     <svg>
-                                        <image href="/icons/site.svg" loading="lazy"/>
+                                        <image href="/public/icons/site.svg" loading="lazy"/>
                                     </svg>
                                 </figure>
                                 <p>Acessar Projeto</p>
@@ -56,7 +56,7 @@
                             <div class="github">
                                 <figure class="github-icon">
                                     <svg>
-                                        <image href="/icons/github.svg" loading="lazy"/>
+                                        <image href="/public/icons/github.svg" loading="lazy"/>
                                     </svg>
                                 </figure>
                                 <p>Acessar Repositório</p>

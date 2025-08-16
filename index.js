@@ -1,14 +1,21 @@
-import express from 'express';
 import { StatusCodes } from 'http-status-codes';
-import * as projectsService from './scripts/projectsService.js';
-import { getMyInfo } from './scripts/myInfo.js';
+import * as projectsService from './src/scripts/projectsService.js';
+import { getMyInfo } from './src/scripts/myInfo.js';
+
+import express from 'express';
+import path, { dirname } from 'path';
+import dotenv from 'dotenv';
+import { fileURLToPath } from 'url';
+dotenv.config();
 
 const app = express();
-const PORT = process.env.PORT || 1220;
+const PORT = process.env.PORT || 3000;
+const __filename = fileURLToPath(import.meta.url);
+const __dirname = dirname(__filename);
 
 app.set('view engine', 'ejs');
-app.set('views', './views');
-app.use(express.static('public/'));
+app.set('views', path.join(__dirname, 'src', 'views'));
+app.use(express.static('src'));
 
 app.listen(PORT, () => {
     console.log(`server running on port http://localhost:${PORT}`);
